@@ -1,0 +1,64 @@
+body
+{
+    background-image: url(winter_bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.div1
+{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 2fr 10fr 1fr;
+}
+.rubrik
+{
+    text-align: center;
+    border: 3px solid tomato;
+    color: beige;
+    background-color: gray;
+}
+.bild
+{
+    margin-left: 50px;
+}
+.viktigaDatum
+{
+    display: flex;
+    justify-content: center;
+
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 40px;
+
+    border: 3px solid yellow;
+    color: white;
+}
+.julafton
+{
+    background-color: white;
+    color: red;
+}
+.nyårsdagen
+{
+    background-color: gold;
+}
+.kalender
+{
+    background-color: #F6E9DC;
+}
+
+.veckodagar
+{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-left: 200px;
+    
+}
+
+h2
+{
+    border: 2px solid tomato;
+    background-color: gray;
+}
